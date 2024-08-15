@@ -1,8 +1,12 @@
 import React from "react";
+import { Cards } from "../Card/Card";
 import './Body.css'
 
 export function Body() {
     return (
-        <h1>Body is here</h1>
+        <main>
+            <h1 className="mainTitle">MENÚ</h1>
+            <Cards/>
+        </main>
     )
 }
